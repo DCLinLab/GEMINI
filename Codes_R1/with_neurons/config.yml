@@ -1,0 +1,69 @@
+data:
+  path: \\10.160.167.41\LinLab\All Data\Labmembers\DLin\20240626_YFP_206\63X-1.czi
+  segmentation: D:\Zuohan\neuron5
+  crystal: Cy5
+  neuron: TaYFP
+  range: [0, 205]
+  neuron_contrast: [11967.714285714284, 25246.285714285714]
+  crystal_contrast: [13133.400000000001, 25765.928571428572]
+  drop_neuron: []
+
+#data:
+#  path: \\10.160.167.41\LinLab\All Data\Labmembers\DLin\20240626_YFP_206\63X-3.czi
+#  segmentation: D:\Zuohan\neuron5
+#  crystal: Cy5
+#  neuron: TaYFP
+#  range: [0, 272]
+#  neuron_contrast: [4486.928571428572, 17289.257142857143]
+#  crystal_contrast: [4474.828571428571, 16330.371428571429]
+#  drop_neuron: [3, 8, 16, 18, 17, 26, 62, 65, 72, 75, 83, 84, 95, 101, 103, 108, 125, 129, 145, 174, 182, 197, 201, 12, 30, 38]
+
+#data:
+#  path: \\10.160.167.41\LinLab\All Data\Labmembers\DLin\20240618_cleared_YFP_206\63X.czi
+#  segmentation: D:\Zuohan\neuron3
+#  crystal: Cy5
+#  neuron: TaYFP
+#  range: [0, 350]
+#  neuron_contrast: [5750.871428571429, 19186.992857142857]
+#  crystal_contrast: [6363.778571428571, 29739.27857142857]
+#  drop_neuron: [41, 10, 121, 135, 179, 181, 188]
+
+#data:
+#  path: \\10.160.167.41\LinLab\All Data\Labmembers\DLin\20240626_YFP_206\63X-2.czi
+#  segmentation: D:\Zuohan\neuron2
+#  crystal: Cy5
+#  neuron: TaYFP
+#  range: [0, 180]
+#  neuron_contrast: [2840.0573248407645, 13763.904458598727]
+#  crystal_contrast: [5611.464285714285, 21242.364285714284]
+#  drop_neuron: [14, 24, 30, 37, 51, 57, 92, 94, 137, 144, 145, 174]
+
+#data:
+#  path: \\10.160.167.41\LinLab\All Data\Labmembers\DLin\20240618_cleared_YFP_206\63X-2.czi
+#  segmentation: D:\Zuohan\neuron
+#  crystal: Cy5
+#  neuron: TaYFP
+#  range: [0, 300]
+#  neuron_contrast: [3587.828571428571, 14532.678571428572]
+#  crystal_contrast: [6869.25, 38216.67857142857]
+#  drop_neuron: [262, 3]
+
+
+crystal:
+  dog: True
+  gamma: 1
+  spot_sigma: 10
+  outline_sigma: 2
+  footprint_radius: 0
+  
+neuron:
+  sigma: 2.
+  spot_sigma: 15
+  radius: 15
+
+filter:
+  neuron_radius: 3
+  crystal_volume: 10
+
+match:
+  dist_thr: 10

@@ -1,0 +1,28 @@
+paths:
+  image: D:\Zuohan\Z9\raw
+  crystal: D:\Zuohan\Z9\seg
+  vessel: D:\Zuohan\Z9\ves
+
+crystal:
+  seg_chan: 'ChS2-T1'
+
+  gamma: .5
+  sigma: 2.
+  spot_sigma: 1.
+  expand_dist: 1.
+
+  int_chan:
+    - 'ChS1-T2'
+    - 'ChS2-T1'
+
+vessel:
+  chan: 'Ch2-T2'
+  seg_scale: 0.5
+  thr: [2, 5]
+  sigma: 3
+  min_size: 1000
+
+assemble:
+  vol_thr: 100
+  low_pct: 1
+  high_pct: 99
