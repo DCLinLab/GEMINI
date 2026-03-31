@@ -16,7 +16,7 @@ if __name__ == '__main__':
     for i in imgs:
         p = Path(i)
         outpath = outdir / p.parts[-2] / 'crystal'
-        # vs.segment_crystal_by_tile(i, str(outpath), workers=nworkers)
+        vs.segment_crystal_by_tile(i, str(outpath), workers=nworkers)
         vs.ratiometrics(str(outpath), str(p.parent), workers=nworkers)
-        # vs.segment_vessel(i, str(outpath.parent), workers=nworkers)
-        # vs.assemble_crystal(str(outpath), str(p.parent), workers=nworkers)
+        vs.segment_vessel(i, str(outpath.parent), workers=nworkers)
+        vs.assemble_crystal(str(outpath), str(p.parent), workers=nworkers)
